@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        html, body, #root { height: 100%; margin: 0; }
+        .animate { transition: all .2s ease-out;}
+    </style>
+    <head><title>Fish eye demo</title></head>
+    <body>
+        <div id="root"></div>
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="./dist/fisheye.js"></script>
+        <script>
+            ReactDOM.render(React.createElement(Fisheye), document.getElementById('root'));
+        </script>
+    </body>
+</html>
